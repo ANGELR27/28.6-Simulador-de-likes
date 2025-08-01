@@ -3,19 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My generation</title>
+  <title>Mi Red Social</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>mi red generation</h1>
-  <form id="postForm">
-    <input type="text" id="title" placeholder="Título" required>
-    <textarea id="description" placeholder="Descripción" required></textarea>
-    <input type="file" id="image" accept="image/*" required>
-    <button type="submit">Publicar</button>
-  </form>
-  <div id="feed"></div>
+  <div class="container">
+    <h1>Generation Social</h1>
+    <form id="postForm">
+      <input type="text" id="title" placeholder="Título de tu publicación" required>
+      <textarea id="description" placeholder="¿Qué estás pensando?" required></textarea>
+      <input type="file" id="image" accept="image/*" required>
+      <button type="submit">Publicar</button>
+    </form>
+    <div id="feed"></div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
- 
